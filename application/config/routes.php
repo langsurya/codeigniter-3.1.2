@@ -53,6 +53,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 // route login
 $route['login'] = 'login';
 $route['admin'] = 'admin';
+$route['mahasiswa'] = 'mahasiswa';
 
 $route['news/create'] = 'news/create';
 $route['news/(:any)'] = 'news/view/$1';
